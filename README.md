@@ -1,7 +1,5 @@
 Coordinator 2000
 
-![Uploading image.png…]()
-
 The purpose of the game is to avoid stepping out of the way. It's a game of coordination eye-hand.
 
 The game screen will be a a moving road viewed from above.
