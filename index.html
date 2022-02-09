@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <title>Coordinator 2000</title>
+</head>
+<body id="body">
+  <div id="startscreen" style="display: block">
+    <audio id="main-song" src="music/Change My Style - Glow Machine.mp3" style="display:none;"></audio>
+    <div class="main-logo-container">
+      <img id="logo-image" src="images/L new driver.png" alt="L new driver logo">
+      <div>
+        <h1 class="coordinator-logo-top">Coordinator</h1>
+        <h2 class="coordinator-logo-bottom">2000</h2>
+      </div>
+    </div>
+    <hr class="separator-line">
+    <p class="main-description">Check your coordination to pass the medical test <br>necessary to obtain your driving license!</p>
+    <button id="start">Start</button>
+  </div>
+  <div id="container" style="display: none">
+    <div id="two-screens">
+      <canvas id="coordinator" width="1200" height="600"></canvas>
+    </div>
+    <img id="timer-counter" src="images/backwards counter.gif" alt="counter" style="display:none;">
+    <div class="timer-back"></div>
+    <div id="instructions-together">
+      <p id="instructions"><b class="title-instructions">Instructions:</b><br> <br>Change directions with A / D and both arrow keys.</p>
+      <img id="arrows" src="images/keyboard3ad.png" alt="keyboard">
+      <img id="arrows" src="images/keyboard4ad.png" alt="keyboard">
+      <p id="instructions-two"><b class="be-careful">Be careful:</b> If you step out of the road more than <b class="percent-instructions">10%</b> of the time you will not pass the test!</p>
+      <button id="play">Click When Ready</button>
+    </div>
+@@ -40,7 +40,7 @@ <h2 class="coordinator-logo-bottom">2000</h2>
+    <h2 id="passed-failed"></h2>
+    <div class="aproved-rejected-container">
+      <img id="approved" src="/images/green-approved-stamp.png" alt="approved" style="display:none;">
+      <img id="rejected" src="/images/rejected1.png" alt="rejected" style="display:none;">
+      <img id="rejected" src="/images/rejectedD5.png" alt="rejected" style="display:none;">
+      <div class="final-description">
+        <h2>You just spent...</h2>
+        <h2 id="right-final-number"></h2>
+        <h2>of the total time out of the road.</h2>
+      </div>
+    </div>
+    <button id="tryagain">Try Again!</button>
+  </div>
+  <script src="scripts/game.js"></script>
+  <script src="scripts/player.js"></script>
+  <script src="scripts/path.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
