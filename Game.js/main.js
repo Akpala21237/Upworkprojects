@@ -78,3 +78,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }, createGameOverScreen, alertRed, alertWhite);
 
 })
+
