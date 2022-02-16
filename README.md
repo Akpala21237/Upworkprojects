@@ -49,3 +49,5 @@ Player colors
 Add colors to overall play screen.
 Levels
 Maximum level shows Game Over if you step out of the line just once.
+
+To play, click here : https://coordinator2000.netlify.app/
